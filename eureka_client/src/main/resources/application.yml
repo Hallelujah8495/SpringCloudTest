@@ -1,0 +1,11 @@
+#配置服务注册中心地址
+server:
+  port: 8086
+
+spring:
+  application:
+    name: eureka_client
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8085/eureka/

@@ -8,13 +8,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3dd81541-f9d9-46a4-a206-d3e6f615e399" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/eureka_client/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka_client/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service_ribbon/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service_ribbon/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service_ribbon/src/main/java/com/sc/test/service_ribbon/ServiceRibbonApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/service_ribbon/src/main/java/com/sc/test/service_ribbon/ServiceRibbonApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service_ribbon/src/main/java/com/sc/test/service_ribbon/service/HelloService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service_ribbon/src/main/java/com/sc/test/service_ribbon/service/HelloService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service_ribbon/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/service_ribbon/src/main/resources/application.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/eureka_server/target/" />
     <ignored path="$PROJECT_DIR$/eureka_client/target/" />
+    <ignored path="$PROJECT_DIR$/service_ribbon/target/" />
+    <ignored path="$PROJECT_DIR$/service_feign/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,71 +41,94 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="323" />
-          <entry key="xml" value="71" />
-          <entry key="yml" value="520" />
+          <entry key="java" value="748" />
+          <entry key="txt" value="16" />
+          <entry key="xml" value="119" />
+          <entry key="yml" value="625" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="323" />
-          <entry key="XML" value="71" />
-          <entry key="YAML" value="520" />
+          <entry key="JAVA" value="748" />
+          <entry key="PLAIN_TEXT" value="16" />
+          <entry key="XML" value="119" />
+          <entry key="YAML" value="625" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="3" />
+          <entry key="java" value="23" />
+          <entry key="md" value="1" />
           <entry key="properties" value="1" />
-          <entry key="xml" value="2" />
-          <entry key="yml" value="5" />
+          <entry key="xml" value="6" />
+          <entry key="yml" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="3" />
+          <entry key="JAVA" value="23" />
+          <entry key="Markdown" value="1" />
           <entry key="Properties" value="1" />
-          <entry key="XML" value="2" />
-          <entry key="YAML" value="5" />
+          <entry key="XML" value="6" />
+          <entry key="YAML" value="15" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/eureka_client/src/main/java/com/sc/test/eureka_client/EurekaClientApplication.java">
+        <entry file="file://$PROJECT_DIR$/eureka_client/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+            <state relative-caret-position="38">
+              <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service_ribbon/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="474">
+              <caret line="32" column="18" lean-forward="true" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service_ribbon/src/main/java/com/sc/test/service_ribbon/ServiceRibbonApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#263#264#0" expanded="true" />
-                <element signature="e#337#338#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/eureka_client/src/main/resources/application.yml">
+        <entry file="file://$PROJECT_DIR$/service_ribbon/src/main/java/com/sc/test/service_ribbon/service/HelloService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/eureka_server/src/main/java/com/sc/test/eureka_server/EurekaServerApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="8" column="20" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="36" />
+            <state relative-caret-position="190">
+              <caret line="13" column="7" lean-forward="true" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+              <folding>
+                <element signature="e#655#656#0" expanded="true" />
+                <element signature="e#708#709#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -108,9 +140,20 @@
         <option value="$PROJECT_DIR$/eureka_server/src/main/java/com/sc/test/eureka_server/EurekaServerApplication.java" />
         <option value="$PROJECT_DIR$/eureka_server/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/eureka_client/pom.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/eureka_client/src/main/java/com/sc/test/eureka_client/EurekaClientApplication.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/service_ribbon/src/main/java/com/sc/test/service_ribbon/serviceribbon/web/HelloController.java" />
+        <option value="$PROJECT_DIR$/service_ribbon/src/main/java/com/sc/test/service_ribbon/web/HelloController.java" />
+        <option value="$PROJECT_DIR$/service_ribbon/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/service_feign/pom.xml" />
+        <option value="$PROJECT_DIR$/service_feign/src/main/java/com/sc/test/service_feign/ServiceFeignApplication.java" />
+        <option value="$PROJECT_DIR$/service_feign/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/service_feign/src/main/java/com/sc/test/service_feign/web/HiController.java" />
+        <option value="$PROJECT_DIR$/service_feign/src/main/java/com/sc/test/service_feign/clients/ScheduleEurekaClient.java" />
         <option value="$PROJECT_DIR$/eureka_client/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/service_ribbon/pom.xml" />
+        <option value="$PROJECT_DIR$/service_ribbon/src/main/java/com/sc/test/service_ribbon/ServiceRibbonApplication.java" />
+        <option value="$PROJECT_DIR$/service_ribbon/src/main/java/com/sc/test/service_ribbon/service/HelloService.java" />
       </list>
     </option>
   </component>
@@ -168,11 +211,13 @@
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
+      <autoscrollFromSource ProjectPane="true" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -206,11 +251,55 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="eureka" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eureka" type="462c0819:PsiDirectoryNode" />
+              <item name="service_ribbon" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eureka" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eureka" type="462c0819:PsiDirectoryNode" />
+              <item name="service_ribbon" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eureka" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eureka" type="462c0819:PsiDirectoryNode" />
+              <item name="service_ribbon" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eureka" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eureka" type="462c0819:PsiDirectoryNode" />
+              <item name="service_ribbon" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eureka" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eureka" type="462c0819:PsiDirectoryNode" />
+              <item name="service_ribbon" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="service_ribbon" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eureka" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eureka" type="462c0819:PsiDirectoryNode" />
+              <item name="service_ribbon" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="service_ribbon" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -220,11 +309,22 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563180861805" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563332199569" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/新建文件夹/sc-f-chapter2" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.sc.test.service_ribbon" />
+      <recent name="com.sc.test.service_ribbon.web" />
+      <recent name="com.sc.test.service_ribbon.service" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\idea-gitReposity\eureka\service_ribbon\src\main\java\com\sc\test\service_ribbon" />
+      <recent name="E:\idea-gitReposity\eureka" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -238,7 +338,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.EurekaClientApplication">
+  <component name="RunManager" selected="Spring Boot.ServiceFeignApplication">
     <configuration name="All Features in: eureka" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="3" />
       <option name="FILE_PATH" value="$PROJECT_DIR$" />
@@ -283,6 +383,20 @@
     <configuration name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="eureka_server" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.sc.test.eureka_server.EurekaServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceFeignApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="service_feign" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sc.test.service_feign.ServiceFeignApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceRibbonApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="service_ribbon" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sc.test.service_ribbon.ServiceRibbonApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -374,6 +488,8 @@
       <item itemvalue="Tomcat Server.eureka-tomcat" />
       <item itemvalue="Cucumber java.All Features in: eureka" />
       <item itemvalue="Cucumber java.All Features in: eureka_server" />
+      <item itemvalue="Spring Boot.ServiceRibbonApplication" />
+      <item itemvalue="Spring Boot.ServiceFeignApplication" />
     </list>
     <recent_temporary>
       <list>
@@ -394,6 +510,14 @@
       <updated>1563170919620</updated>
       <workItem from="1563170921052" duration="7847000" />
     </task>
+    <task id="LOCAL-00001" summary="整合service_ribbon">
+      <created>1563255821816</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1563255821816</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -406,48 +530,51 @@
     <history-entry file="All_Features_in__eureka_server - 2019.07.15 at 15h 07m 26s.xml">
       <configuration name="All Features in: eureka_server" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
+    <history-entry file="All_Features_in__eureka_server - 2019.07.16 at 11h 28m 57s.xml">
+      <configuration name="All Features in: eureka_server" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7847000" />
+    <option name="totallyTimeSpent" value="20748000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Designer" />
-      <window_info id="Image Layers" />
-      <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Capture Tool" />
-      <window_info id="Web" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24928367" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25286534" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Application Servers" weight="0.32867134" />
-      <window_info anchor="bottom" id="Spring" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32913166" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Java Enterprise" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" weight="0.35384616" />
-      <window_info anchor="bottom" id="Tail" />
+      <window_info id="Designer" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Web" order="6" side_tool="true" />
+      <window_info id="Image Layers" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.53846157" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.48319328" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Maven Projects" weight="0.3295129" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Bean Validation" />
+      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32867134" />
+      <window_info anchor="bottom" id="Spring" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32913166" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="14" weight="0.35384616" />
+      <window_info anchor="bottom" id="Tail" order="15" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Maven Projects" order="6" weight="0.3295129" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -455,6 +582,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="整合service_ribbon" />
+    <option name="LAST_COMMIT_MESSAGE" value="整合service_ribbon" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/eureka_client/pom.xml">
@@ -464,6 +595,9 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/service-ribbon/src/main/java/com/sc/test/serviceribbon/web/HelloController.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/eureka_server/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="513">
@@ -471,10 +605,58 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/service_ribbon/src/main/java/com/sc/test/service_ribbon/serviceribbon/service/HelloService.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service_ribbon/src/main/java/com/sc/test/service_ribbon/serviceribbon/ServiceRibbonApplication.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service_ribbon/src/main/java/com/sc/test/service_ribbon/serviceribbon/web/HelloController.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka_server/src/main/java/com/sc/test/eureka_server/EurekaServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="8" column="23" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="34" column="16" lean-forward="true" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
+        <state relative-caret-position="248">
+          <caret line="24" column="26" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="152">
+            <caret line="8" column="48" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="48" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka_client/src/main/java/com/sc/test/eureka_client/EurekaClientApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="13" column="30" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service_ribbon/src/main/java/com/sc/test/service_ribbon/web/HelloController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#517#518#0" expanded="true" />
+            <element signature="e#568#569#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -485,29 +667,88 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eureka_server/src/main/java/com/sc/test/eureka_server/EurekaServerApplication.java">
+    <entry file="file://$PROJECT_DIR$/service_ribbon/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="8" column="20" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="36" />
+        <state relative-caret-position="190">
+          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eureka_client/src/main/java/com/sc/test/eureka_client/EurekaClientApplication.java">
+    <entry file="file://$PROJECT_DIR$/service_feign/src/main/java/com/sc/test/service_feign/web/HiController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+        <state relative-caret-position="209">
+          <caret line="17" column="15" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#263#264#0" expanded="true" />
-            <element signature="e#337#338#0" expanded="true" />
+            <element signature="e#598#599#0" expanded="true" />
+            <element signature="e#633#634#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service_feign/src/main/java/com/sc/test/service_feign/ServiceFeignApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="12" column="22" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service_feign/src/main/java/com/sc/test/service_feign/clients/ScheduleEurekaClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="35" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service_feign/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service_feign/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="23" lean-forward="true" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service_ribbon/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="474">
+          <caret line="32" column="18" lean-forward="true" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/eureka_client/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="38">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service_ribbon/src/main/java/com/sc/test/service_ribbon/ServiceRibbonApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service_ribbon/src/main/java/com/sc/test/service_ribbon/service/HelloService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="13" column="7" lean-forward="true" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+          <folding>
+            <element signature="e#655#656#0" expanded="true" />
+            <element signature="e#708#709#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

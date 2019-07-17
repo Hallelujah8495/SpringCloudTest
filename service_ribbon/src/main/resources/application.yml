@@ -8,4 +8,4 @@ server:
 
 spring:
   application:
-    name: service_ribbon
+    name: service-ribbon

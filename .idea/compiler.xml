@@ -8,6 +8,8 @@
         <outputRelativeToContentRoot value="true" />
         <module name="eureka_client" />
         <module name="eureka_server" />
+        <module name="service_feign" />
+        <module name="service_ribbon" />
       </profile>
     </annotationProcessing>
   </component>

@@ -8,15 +8,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3dd81541-f9d9-46a4-a206-d3e6f615e399" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka_client/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka_client/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service_ribbon/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service_ribbon/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service_ribbon/src/main/java/com/sc/test/service_ribbon/ServiceRibbonApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/service_ribbon/src/main/java/com/sc/test/service_ribbon/ServiceRibbonApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service_ribbon/src/main/java/com/sc/test/service_ribbon/service/HelloService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service_ribbon/src/main/java/com/sc/test/service_ribbon/service/HelloService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service_ribbon/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/service_ribbon/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service_feign/src/main/java/com/sc/test/service_feign/clients/ScheduleEurekaClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/service_feign/src/main/java/com/sc/test/service_feign/clients/ScheduleEurekaClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service_feign/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/service_feign/src/main/resources/application.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -41,36 +35,36 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="748" />
-          <entry key="txt" value="16" />
+          <entry key="java" value="790" />
+          <entry key="txt" value="39" />
           <entry key="xml" value="119" />
-          <entry key="yml" value="625" />
+          <entry key="yml" value="641" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="748" />
-          <entry key="PLAIN_TEXT" value="16" />
+          <entry key="JAVA" value="790" />
+          <entry key="PLAIN_TEXT" value="39" />
           <entry key="XML" value="119" />
-          <entry key="YAML" value="625" />
+          <entry key="YAML" value="641" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="23" />
+          <entry key="java" value="27" />
           <entry key="md" value="1" />
           <entry key="properties" value="1" />
-          <entry key="xml" value="6" />
-          <entry key="yml" value="15" />
+          <entry key="xml" value="7" />
+          <entry key="yml" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="23" />
+          <entry key="JAVA" value="27" />
           <entry key="Markdown" value="1" />
           <entry key="Properties" value="1" />
-          <entry key="XML" value="6" />
-          <entry key="YAML" value="15" />
+          <entry key="XML" value="7" />
+          <entry key="YAML" value="16" />
         </counts>
       </usages-collector>
     </session>
@@ -107,7 +101,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/service_ribbon/src/main/java/com/sc/test/service_ribbon/service/HelloService.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="190">
@@ -115,6 +109,73 @@
               <folding>
                 <element signature="e#655#656#0" expanded="true" />
                 <element signature="e#708#709#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service_feign/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="14" column="17" lean-forward="true" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service_feign/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service_feign/src/main/java/com/sc/test/service_feign/ServiceFeignApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="12" column="22" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service_feign/src/main/java/com/sc/test/service_feign/clients/ScheduleEurekaClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="8" column="79" selection-start-line="8" selection-start-column="79" selection-end-line="8" selection-end-column="79" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service_feign/src/main/java/com/sc/test/service_feign/web/HiController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="13" column="45" selection-start-line="13" selection-start-column="45" selection-end-line="13" selection-end-column="45" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#598#599#0" expanded="true" />
+                <element signature="e#666#667#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/service_feign/src/main/java/com/sc/test/service_feign/clients/fallback/ScheduleServiceHiHystrix.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#253#254#0" expanded="true" />
+                <element signature="e#280#281#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -147,13 +208,14 @@
         <option value="$PROJECT_DIR$/service_ribbon/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/service_feign/pom.xml" />
         <option value="$PROJECT_DIR$/service_feign/src/main/java/com/sc/test/service_feign/ServiceFeignApplication.java" />
-        <option value="$PROJECT_DIR$/service_feign/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/service_feign/src/main/java/com/sc/test/service_feign/web/HiController.java" />
-        <option value="$PROJECT_DIR$/service_feign/src/main/java/com/sc/test/service_feign/clients/ScheduleEurekaClient.java" />
         <option value="$PROJECT_DIR$/eureka_client/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/service_ribbon/pom.xml" />
         <option value="$PROJECT_DIR$/service_ribbon/src/main/java/com/sc/test/service_ribbon/ServiceRibbonApplication.java" />
         <option value="$PROJECT_DIR$/service_ribbon/src/main/java/com/sc/test/service_ribbon/service/HelloService.java" />
+        <option value="$PROJECT_DIR$/service_feign/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/service_feign/src/main/java/com/sc/test/service_feign/clients/ScheduleEurekaClient.java" />
+        <option value="$PROJECT_DIR$/service_feign/src/main/java/com/sc/test/service_feign/web/HiController.java" />
+        <option value="$PROJECT_DIR$/service_feign/src/main/java/com/sc/test/service_feign/clients/fallback/ScheduleServiceHiHystrix.java" />
       </list>
     </option>
   </component>
@@ -228,73 +290,76 @@
             <path>
               <item name="eureka" type="b2602c69:ProjectViewProjectNode" />
               <item name="eureka" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka_client" type="462c0819:PsiDirectoryNode" />
+              <item name="service_feign" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="eureka" type="b2602c69:ProjectViewProjectNode" />
               <item name="eureka" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka_client" type="462c0819:PsiDirectoryNode" />
+              <item name="service_feign" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="eureka" type="b2602c69:ProjectViewProjectNode" />
               <item name="eureka" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka_client" type="462c0819:PsiDirectoryNode" />
+              <item name="service_feign" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="eureka" type="b2602c69:ProjectViewProjectNode" />
               <item name="eureka" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka_client" type="462c0819:PsiDirectoryNode" />
+              <item name="service_feign" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eureka" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eureka" type="462c0819:PsiDirectoryNode" />
+              <item name="service_feign" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="service_feign" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eureka" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eureka" type="462c0819:PsiDirectoryNode" />
+              <item name="service_feign" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="service_feign" type="462c0819:PsiDirectoryNode" />
+              <item name="clients" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eureka" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eureka" type="462c0819:PsiDirectoryNode" />
+              <item name="service_feign" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="service_feign" type="462c0819:PsiDirectoryNode" />
+              <item name="clients" type="462c0819:PsiDirectoryNode" />
+              <item name="fallback" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eureka" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eureka" type="462c0819:PsiDirectoryNode" />
+              <item name="service_feign" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="service_feign" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eureka" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eureka" type="462c0819:PsiDirectoryNode" />
+              <item name="service_feign" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eureka" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eureka" type="462c0819:PsiDirectoryNode" />
-              <item name="service_ribbon" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eureka" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eureka" type="462c0819:PsiDirectoryNode" />
-              <item name="service_ribbon" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eureka" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eureka" type="462c0819:PsiDirectoryNode" />
-              <item name="service_ribbon" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eureka" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eureka" type="462c0819:PsiDirectoryNode" />
-              <item name="service_ribbon" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eureka" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eureka" type="462c0819:PsiDirectoryNode" />
-              <item name="service_ribbon" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="service_ribbon" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eureka" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eureka" type="462c0819:PsiDirectoryNode" />
-              <item name="service_ribbon" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="service_ribbon" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -309,7 +374,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563332199569" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563333028902" />
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop/新建文件夹/sc-f-chapter2" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -517,7 +582,14 @@
       <option name="project" value="LOCAL" />
       <updated>1563255821816</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="在ribbon使用断路器Hystrix">
+      <created>1563332296381</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1563332296381</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -535,13 +607,22 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20748000" />
+    <option name="totallyTimeSpent" value="21560000" />
+  </component>
+  <component name="TodoView" selected-index="4">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25286534" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25286534" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -551,11 +632,11 @@
       <window_info id="Image Layers" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.48319328" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.35714287" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32913166" />
       <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32867134" />
       <window_info anchor="bottom" id="Spring" order="8" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32913166" />
@@ -585,7 +666,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="整合service_ribbon" />
-    <option name="LAST_COMMIT_MESSAGE" value="整合service_ribbon" />
+    <MESSAGE value="在ribbon使用断路器Hystrix" />
+    <option name="LAST_COMMIT_MESSAGE" value="在ribbon使用断路器Hystrix" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/eureka_client/pom.xml">
@@ -674,49 +756,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service_feign/src/main/java/com/sc/test/service_feign/web/HiController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="17" column="15" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#598#599#0" expanded="true" />
-            <element signature="e#633#634#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service_feign/src/main/java/com/sc/test/service_feign/ServiceFeignApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="12" column="22" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service_feign/src/main/java/com/sc/test/service_feign/clients/ScheduleEurekaClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="35" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service_feign/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service_feign/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="23" lean-forward="true" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/service_ribbon/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="474">
@@ -748,6 +787,61 @@
           <folding>
             <element signature="e#655#656#0" expanded="true" />
             <element signature="e#708#709#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service_feign/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="17" lean-forward="true" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service_feign/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service_feign/src/main/java/com/sc/test/service_feign/ServiceFeignApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="12" column="22" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service_feign/src/main/java/com/sc/test/service_feign/web/HiController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="45" selection-start-line="13" selection-start-column="45" selection-end-line="13" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#598#599#0" expanded="true" />
+            <element signature="e#666#667#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service_feign/src/main/java/com/sc/test/service_feign/clients/ScheduleEurekaClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="79" selection-start-line="8" selection-start-column="79" selection-end-line="8" selection-end-column="79" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service_feign/src/main/java/com/sc/test/service_feign/clients/fallback/ScheduleServiceHiHystrix.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#253#254#0" expanded="true" />
+            <element signature="e#280#281#0" expanded="true" />
           </folding>
         </state>
       </provider>
